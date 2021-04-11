@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import logo from './logo.svg'
+import React, { useEffect, useState } from 'react'
 import './App.css'
+import logo from './logo.svg'
 
 const App = (): JSX.Element => {
   // Create the count state.
@@ -30,6 +30,7 @@ const App = (): JSX.Element => {
           >
             Learn React
           </a>
+          <button className="bg-purple-300">Click here</button>
         </p>
       </header>
     </div>
